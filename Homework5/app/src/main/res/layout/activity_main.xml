@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:padding="30dp"
+    android:padding="50dp"
     >
 
     <TextView
@@ -57,11 +57,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CALCULATE"
         android:layout_gravity="center"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"
+        android:backgroundTint="#2196F3"/>
 
     <TextView
         android:id="@+id/textView4"
