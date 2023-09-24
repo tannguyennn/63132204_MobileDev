@@ -16,17 +16,26 @@
         android:text="Hello World!"
         android:textColor="#003296"
         android:textSize="30dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_margin="20dp"/>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="CHANGE FONT SIZE"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#ACAAAA"
+        android:textSize="20dp"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="CHANGE COLOR"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#ACAAAA"
+        android:textSize="20dp"/>
 </LinearLayout>
