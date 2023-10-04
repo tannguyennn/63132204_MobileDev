@@ -14,11 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getWidget();
+    }
+    void getWidget()
+    {
         //B tim dieu khien
         editText_UN = findViewById(R.id.editUsername);
         editText_PWD = findViewById(R.id.editPassword);
     }
-
     //ten DN = 63CLC1 pass= 123
     public void Login_Click(View v){
         //B1 lay du lieu
