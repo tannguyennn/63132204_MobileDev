@@ -8,20 +8,21 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    EditText editText_UN;
+    EditText editText_PWD;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //B tim dieu khien
+        editText_UN = findViewById(R.id.editUsername);
+        editText_PWD = findViewById(R.id.editPassword);
     }
 
     //ten DN = 63CLC1 pass= 123
     public void Login_Click(View v){
         //B1 lay du lieu
-            //B1.1 tim dieu khien
-        EditText editText_UN = findViewById(R.id.editUsername);
-        EditText editText_PWD = findViewById(R.id.editPassword);
-            //B1.2 lay du lieu
+
         String tenDN = editText_UN.getText().toString();
         String mk = editText_PWD.getText().toString();
 
