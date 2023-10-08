@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center|top"
+    android:background="#2196F3"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="A = "
+            android:textSize="30dp"
+            android:background="@color/white"
+            android:gravity="center"
+
+            ></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editA"
+            android:background="@color/white"
+            android:layout_marginLeft="5dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="B = "
+            android:textSize="30dp"
+            android:background="@color/white"
+            android:gravity="center"
+            ></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editB"
+            android:background="@color/white"
+            android:layout_marginLeft="5dp"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="+"
+            android:textSize="30dp"
+            android:id="@+id/btnAdd"
+            android:onClick="Xuly_Cong"
+            ></Button>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="-"
+            android:textSize="30dp"
+            android:id="@+id/btnSub"
+            android:onClick="Xuly_Tru"
+            ></Button>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="*"
+            android:textSize="30dp"
+            android:id="@+id/btnMul"
+            android:onClick="Xuly_Nhan"
+            ></Button>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="/"
+            android:textSize="30dp"
+            android:id="@+id/btnDiv"
+            android:onClick="Xuly_Chia"
+            ></Button>
+    </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Kết quả"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/tvResult"
+        android:background="@color/white"
+        android:gravity="center"
+        ></TextView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
