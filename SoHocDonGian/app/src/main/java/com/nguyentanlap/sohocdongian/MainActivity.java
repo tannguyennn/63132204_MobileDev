@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,28 +26,28 @@ public class MainActivity extends AppCompatActivity {
         tvKQ = (TextView) findViewById(R.id.tvResult);
     }
 
-    public void Xuly_Cong() {
+    public void Xuly_Cong(View v) {
         int soA = Integer.parseInt(editText_A.getText().toString());
         int soB = Integer.parseInt(editText_B.getText().toString());
         int ketQua = soA + soB;
         tvKQ.setText(String.valueOf(ketQua));
     }
 
-    public void Xuly_Tru() {
+    public void Xuly_Tru(View v) {
         int soA = Integer.parseInt(editText_A.getText().toString());
         int soB = Integer.parseInt(editText_B.getText().toString());
         int ketQua = soA - soB;
         tvKQ.setText(String.valueOf(ketQua));
     }
 
-    public void Xuly_Nhan() {
+    public void Xuly_Nhan(View v) {
         int soA = Integer.parseInt(editText_A.getText().toString());
         int soB = Integer.parseInt(editText_B.getText().toString());
         int ketQua = soA * soB;
         tvKQ.setText(String.valueOf(ketQua));
     }
 
-    public void Xuly_Chia() {
+    public void Xuly_Chia(View v) {
         int soA = Integer.parseInt(editText_A.getText().toString());
         int soB = Integer.parseInt(editText_B.getText().toString());
         int ketQua = soA / soB;

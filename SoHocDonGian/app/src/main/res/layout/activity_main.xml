@@ -57,36 +57,44 @@
         android:layout_height="wrap_content"
         android:gravity="center">
         <Button
+            android:layout_margin="5dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="+"
             android:textSize="30dp"
             android:id="@+id/btnAdd"
             android:onClick="Xuly_Cong"
+            app:cornerRadius="0dp"
             ></Button>
         <Button
+            android:layout_margin="5dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="-"
             android:textSize="30dp"
             android:id="@+id/btnSub"
             android:onClick="Xuly_Tru"
+            app:cornerRadius="0dp"
             ></Button>
         <Button
+            android:layout_margin="5dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="*"
             android:textSize="30dp"
             android:id="@+id/btnMul"
             android:onClick="Xuly_Nhan"
+            app:cornerRadius="0dp"
             ></Button>
         <Button
+            android:layout_margin="5dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="/"
             android:textSize="30dp"
             android:id="@+id/btnDiv"
             android:onClick="Xuly_Chia"
+            app:cornerRadius="0dp"
             ></Button>
     </LinearLayout>
 
@@ -102,7 +110,7 @@
         ></TextView>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:id="@+id/tvResult"
         android:background="@color/white"
         android:gravity="center"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         textView_Result = (TextView) findViewById(R.id.tvResult);
     }
 
-    public void Calculate_BMI() {
+    public void Calculate_BMI(View v) {
         int w = Integer.parseInt(editText_Weight.getText().toString());
         double h = Integer.parseInt(editText_Height.getText().toString());
         h = h / 100.0;
