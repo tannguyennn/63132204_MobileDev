@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CustomListview_Ex"
+rootProject.name = "Customlistview_ex"
 include(":app")

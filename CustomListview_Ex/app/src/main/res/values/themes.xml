@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.CustomListview_Ex" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Customlistview_ex" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.CustomListview_Ex" parent="Base.Theme.CustomListview_Ex" />
+    <style name="Theme.Customlistview_ex" parent="Base.Theme.Customlistview_ex" />
 </resources>
