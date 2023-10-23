@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MÀN HÌNH CHÍNH"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHÀO MỪNG"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tên hiện ở đây"
+            android:textSize="20dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="164dp"
+        android:background="#9C27B0"
+        tools:srcCompat="@tools:sample/backgrounds/scenic">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz 1"
+            android:layout_margin="10dp"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz 2"
+            android:layout_margin="10dp"
+            ></Button>
+    </LinearLayout>
+
+</LinearLayout>
