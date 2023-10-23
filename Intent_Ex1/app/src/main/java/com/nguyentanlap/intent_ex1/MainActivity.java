@@ -20,7 +20,17 @@ public class MainActivity extends AppCompatActivity {
         btnmh2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(MH2Activity.class)
+
+                Intent intent2 = new Intent(MainActivity.this,MH2Activity.class);
+                startActivity(intent2);
+            }
+        });
+
+        btnmh3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent3 = new Intent(MainActivity.this,MH3Activity.class);
+                startActivity(intent3);
             }
         });
 
