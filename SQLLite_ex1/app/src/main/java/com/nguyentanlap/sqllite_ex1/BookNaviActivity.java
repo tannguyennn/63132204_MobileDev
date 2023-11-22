@@ -93,5 +93,7 @@ public class BookNaviActivity extends AppCompatActivity {
         tvBookPrice.setText(String.valueOf(price));
         tvBookPage.setText(String.valueOf(numPage));
         tvBookDes.setText(description);
+
+
     }
 }
